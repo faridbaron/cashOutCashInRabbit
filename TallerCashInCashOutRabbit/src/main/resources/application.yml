@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://test:test@cluster0.kpcudmd.mongodb.net/cash
+  rabbitmq:
+    addresses: amqps://gkqkhzcd:yy3Nr2UtxRl9u0b0SFQ4pmJEjMlQxI7O@possum.lmq.cloudamqp.com/gkqkhzcd
+ledger:
+  base-url: http://localhost:8081
+logging:
+  level:
+    org.springframework.web.reactive.function.client.exchangeFunctions: TRACE
+server:
+  port: 8081
